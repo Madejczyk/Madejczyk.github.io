@@ -1,0 +1,9 @@
+{
+  "name": "madejczyk.github.io",
+  "version": "1.0.0",
+  "description": "I am also waiting for this...",
+  "main": "index.js",
+  "repository": "https://github.com/Madejczyk/Madejczyk.github.io.git",
+  "author": "Madejczyk <jakub.madejczyk92@gmail.com>",
+  "license": "MIT"
+}
