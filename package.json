@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack"
-   },
+  },
   "devDependencies": {
     "html-webpack-plugin": "latest",
     "webpack": "latest",
