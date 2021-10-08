@@ -10,11 +10,18 @@
     "build": "webpack"
   },
   "devDependencies": {
+    "@swc/cli": "latest",
+    "@swc/core": "latest",
     "html-webpack-plugin": "latest",
+    "swc-loader": "latest",
     "webpack": "latest",
     "webpack-cli": "latest"
   },
   "dependencies": {
-    "lodash": "latest"
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "lodash": "latest",
+    "react": "alpha",
+    "react-dom": "alpha"
   }
 }
