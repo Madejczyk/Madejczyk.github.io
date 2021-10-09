@@ -1,0 +1,34 @@
+{
+  "name": "madejczyk.github.io",
+  "version": "1.0.0",
+  "description": "I am also waiting for this...",
+  "main": "index.js",
+  "repository": "https://github.com/Madejczyk/Madejczyk.github.io.git",
+  "author": "Madejczyk <jakub.madejczyk92@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "start": "webpack --mode=development",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@swc/cli": "latest",
+    "@swc/core": "latest",
+    "@swc/jest": "latest",
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@types/jest": "latest",
+    "html-webpack-plugin": "latest",
+    "jest": "latest",
+    "swc-loader": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest"
+  },
+  "dependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "lodash": "latest",
+    "react": "alpha",
+    "react-dom": "alpha"
+  }
+}

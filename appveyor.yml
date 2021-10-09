@@ -1,0 +1,22 @@
+# Test against the latest version of this Node.js version
+environment:
+  nodejs_version: "14"
+
+# Install scripts. (runs after repo cloning)
+install:
+  # install modules
+  - yarn install
+
+# Post-install test scripts.
+test_script:
+  # Output useful info for debugging.
+  - node --version
+  - yarn --version
+  # run tests
+  - yarn test
+
+# Don't actually build.
+build: off
+
+cache:
+ - "%LOCALAPPDATA%\\Yarn"
