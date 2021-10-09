@@ -9,7 +9,7 @@
   "scripts": {
     "build": "webpack --mode=production",
     "predeploy": "yarn build",
-    "deploy": "gh-pages --dist=dist --branch=gh-pages",
+    "deploy": "yarn predeploy && gh-pages --dist=dist --branch=gh-pages",
     "start": "webpack --mode=development",
     "test": "jest"
   },

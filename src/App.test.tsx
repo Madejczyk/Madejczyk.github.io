@@ -5,11 +5,11 @@ import App from './App'
 
 test('renders a message', () => {
   const {container, getByText} = render(<App />)
-  expect(getByText('Hello World')).toBeInTheDocument()
+  expect(getByText('I am also waiting for this...')).toBeInTheDocument()
   expect(container.firstChild).toMatchInlineSnapshot(`
   <div>
     <h1>
-      Hello World
+      I am also waiting for this...
     </h1>
   </div>
   `)
