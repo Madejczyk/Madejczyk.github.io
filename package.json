@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode=production",
-    "deploy": "git subtree push --prefix dist origin gh-pages",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages --dist=dist --branch=gh-pages",
     "start": "webpack --mode=development",
     "test": "jest"
   },
@@ -19,6 +20,7 @@
     "@testing-library/jest-dom": "latest",
     "@testing-library/react": "latest",
     "@types/jest": "latest",
+    "gh-pages": "latest",
     "html-webpack-plugin": "latest",
     "jest": "latest",
     "swc-loader": "latest",
