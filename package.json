@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode=production",
+    "deploy": "git subtree push --prefix dist origin gh-pages",
     "start": "webpack --mode=development",
     "test": "jest"
   },
