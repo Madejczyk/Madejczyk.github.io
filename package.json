@@ -7,12 +7,19 @@
   "author": "Madejczyk <jakub.madejczyk92@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack --mode=production",
+    "start": "webpack --mode=development",
+    "test": "jest"
   },
   "devDependencies": {
     "@swc/cli": "latest",
     "@swc/core": "latest",
+    "@swc/jest": "latest",
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@types/jest": "latest",
     "html-webpack-plugin": "latest",
+    "jest": "latest",
     "swc-loader": "latest",
     "webpack": "latest",
     "webpack-cli": "latest"
