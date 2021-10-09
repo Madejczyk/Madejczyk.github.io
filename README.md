@@ -1,1 +1,0 @@
-# Madejczyk.github.io deployment
