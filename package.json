@@ -8,9 +8,10 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode=production",
+    "deploy": "yarn predeploy && gh-pages --dist=dist --branch=gh-pages",
     "format": "prettier --write \"**/*.+(js|jsx|json|yml||ts|tsx)\"",
     "predeploy": "yarn build",
-    "deploy": "yarn predeploy && gh-pages --dist=dist --branch=gh-pages",
+    "prepare": "husky install",
     "start": "webpack --mode=development",
     "test": "jest"
   },
@@ -23,6 +24,7 @@
     "@types/jest": "latest",
     "gh-pages": "latest",
     "html-webpack-plugin": "latest",
+    "husky": "latest",
     "jest": "latest",
     "prettier": "latest",
     "swc-loader": "latest",

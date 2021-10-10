@@ -2981,6 +2981,15 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
+"husky@npm:latest":
+  version: 7.0.2
+  resolution: "husky@npm:7.0.2"
+  bin:
+    husky: lib/bin.js
+  checksum: 2ccfe6ddc51dc05ae8ea1e2fbb893344e93a813e00c595d6b5f5e704b7b998d6b0e2adda7c57f99b5e46a60dc07c7d860269a2ea91661c6bacef0eca8e0b8e96
+  languageName: node
+  linkType: hard
+
 "iconv-lite@npm:0.4.24":
   version: 0.4.24
   resolution: "iconv-lite@npm:0.4.24"
@@ -3962,6 +3971,7 @@ fsevents@^2.3.2:
     "@types/react-dom": latest
     gh-pages: latest
     html-webpack-plugin: latest
+    husky: latest
     jest: latest
     lodash: latest
     prettier: latest
