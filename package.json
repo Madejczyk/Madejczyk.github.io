@@ -13,7 +13,8 @@
     "predeploy": "yarn build",
     "prepare": "husky install",
     "start": "webpack --mode=development",
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "devDependencies": {
     "@swc/cli": "latest",
