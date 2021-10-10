@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode=production",
+    "format": "prettier --write \"**/*.+(js|jsx|json|yml||ts|tsx)\"",
     "predeploy": "yarn build",
     "deploy": "yarn predeploy && gh-pages --dist=dist --branch=gh-pages",
     "start": "webpack --mode=development",
@@ -23,6 +24,7 @@
     "gh-pages": "latest",
     "html-webpack-plugin": "latest",
     "jest": "latest",
+    "prettier": "latest",
     "swc-loader": "latest",
     "webpack": "latest",
     "webpack-cli": "latest"
