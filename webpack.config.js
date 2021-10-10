@@ -1,5 +1,5 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const path = require('path')
 
 module.exports = {
   entry: './src/index.tsx',
@@ -15,17 +15,19 @@ module.exports = {
         use: {
           loader: 'swc-loader',
           options: {
-            sync: true // This makes swc-loader invoke swc synchronously.
-          }
+            sync: true, // This makes swc-loader invoke swc synchronously.
+          },
         },
-      }
-    ]
+      },
+    ],
   },
   resolve: {
-    extensions: ['.ts', '.tsx', '.js']
+    extensions: ['.ts', '.tsx', '.js'],
   },
-  plugins: [new HtmlWebpackPlugin({
-    title: "Madejczyk",
-    template: "index.html"
-  })],
-};
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: 'Madejczyk',
+      template: 'index.html',
+    }),
+  ],
+}
