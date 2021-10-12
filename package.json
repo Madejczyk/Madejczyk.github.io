@@ -15,6 +15,7 @@
     "prepare": "husky install",
     "start": "webpack --mode=development",
     "test": "jest",
+    "test:update": "jest -u",
     "test:coverage": "jest --coverage"
   },
   "devDependencies": {
@@ -26,6 +27,8 @@
     "@types/jest": "latest",
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
+    "autoprefixer": "latest",
+    "css-loader": "latest",
     "eslint": "latest",
     "eslint-config-prettier": "latest",
     "eslint-plugin-jest": "latest",
@@ -36,8 +39,12 @@
     "html-webpack-plugin": "latest",
     "husky": "latest",
     "jest": "latest",
+    "postcss": "latest",
+    "postcss-loader": "latest",
     "prettier": "latest",
+    "style-loader": "latest",
     "swc-loader": "latest",
+    "tailwindcss": "latest",
     "typescript": "latest",
     "webpack": "latest",
     "webpack-cli": "latest"
