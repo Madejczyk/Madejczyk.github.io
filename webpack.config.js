@@ -31,7 +31,11 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Madejczyk',
-      template: 'index.html',
+      template: 'src/index.html',
+      meta: {
+        description: 'I am also waiting for this...',
+        viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no',
+      },
     }),
   ],
 }
