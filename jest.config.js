@@ -7,6 +7,7 @@ module.exports = {
       statements: 85,
     },
   },
+  roots: ['<rootDir>/src/'],
   testEnvironment: 'jsdom',
   transform: {
     '^.+\\.(t|j)sx?$': ['@swc/jest'],
