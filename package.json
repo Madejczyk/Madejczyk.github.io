@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode=production",
+    "cypress:open": "cypress open",
     "deploy": "yarn predeploy && gh-pages --dist=dist --branch=gh-pages",
     "format": "prettier --write \"**/*.+(js|jsx|json|yml||ts|tsx)\"",
     "lint": "eslint --ext .tsx,.ts src/",
@@ -15,6 +16,7 @@
     "prepare": "husky install",
     "start": "webpack --mode=development",
     "test": "jest",
+    "test:e2e": "cypress run",
     "test:update": "jest -u",
     "test:coverage": "jest --coverage"
   },
@@ -29,6 +31,7 @@
     "@typescript-eslint/parser": "latest",
     "autoprefixer": "latest",
     "css-loader": "latest",
+    "cypress": "latest",
     "eslint": "latest",
     "eslint-config-prettier": "latest",
     "eslint-plugin-jest": "latest",
