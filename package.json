@@ -14,7 +14,7 @@
     "lint": "eslint --ext .tsx,.ts src/",
     "predeploy": "yarn build",
     "prepare": "husky install",
-    "start": "webpack --mode=development",
+    "start": "webpack serve --mode=development",
     "test": "jest",
     "test:e2e": "cypress run",
     "test:update": "jest -u",
@@ -50,7 +50,8 @@
     "tailwindcss": "latest",
     "typescript": "latest",
     "webpack": "latest",
-    "webpack-cli": "latest"
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest"
   },
   "dependencies": {
     "@types/react": "latest",
