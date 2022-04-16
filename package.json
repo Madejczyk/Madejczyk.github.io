@@ -56,7 +56,7 @@
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "lodash": "latest",
-    "react": "alpha",
-    "react-dom": "alpha"
+    "react": "latest",
+    "react-dom": "latest"
   }
 }
