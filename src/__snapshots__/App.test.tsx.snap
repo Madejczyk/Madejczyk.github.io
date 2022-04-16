@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a message 1`] = `
+<div>
+  <div>
+    I am 
+  </div>
+  <div>
+    <span>
+      also waiting for this...
+    </span>
+  </div>
+</div>
+`;
