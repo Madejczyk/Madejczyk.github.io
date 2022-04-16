@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
     "jsx": "react-jsx",
-    "types": ["react/next", "react-dom/next"]
+    "types": ["react/next", "react-dom/next", "node"]
   }
 }
